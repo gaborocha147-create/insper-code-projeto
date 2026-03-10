@@ -1,0 +1,35 @@
+{% extends "base.html" %}
+{% block title %}Atividades - ICC{% endblock %}
+
+{% block content %}
+<section class="section">
+  <div class="container">
+    <h1>Atividades</h1>
+  </div>
+</section>
+
+<section class="section-alt atividades-grid">
+  <div class="container grid grid-3">
+
+    <div class="atividade-card">
+      <img src="{{ url_for('static', filename='img/placeholder1.jpg') }}">
+      <h3>Trainings</h3>
+      <p>Capacitação intensiva em consultoria estratégica e resolução de cases.</p>
+    </div>
+
+    <div class="atividade-card">
+      <img src="{{ url_for('static', filename='img/placeholder2.jpg') }}">
+      <h3>Competições</h3>
+      <p>Participação ativa nas principais competições nacionais.</p>
+    </div>
+
+    <div class="atividade-card">
+      <img src="{{ url_for('static', filename='img/placeholder3.jpg') }}">
+      <h3>Networking</h3>
+      <p>Conexão direta com líderes do mercado e mentorias exclusivas.</p>
+    </div>
+
+  </div>
+</section>
+
+{% endblock %}

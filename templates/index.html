@@ -1,0 +1,38 @@
+{% extends "base.html" %}
+{% block title %}Início - ICC{% endblock %}
+
+{% block content %}
+
+<section class="hero">
+  <div class="container">
+    <h1>Formando líderes para o mercado de consultoria</h1>
+    <p class="hero-sub">
+      Somos a principal organização estudantil do Insper dedicada à formação
+      de consultores estratégicos e líderes preparados para atuar nas melhores empresas do mercado.
+    </p>
+    <a href="{{ url_for('participe') }}" class="btn-primary">Quero participar</a>
+  </div>
+</section>
+
+<section class="metrics">
+  <div class="container metrics-grid">
+    <div class="metric">
+      <div class="number">10+</div>
+      <div class="label">Anos de história</div>
+    </div>
+    <div class="metric">
+      <div class="number">20+</div>
+      <div class="label">Empresas parceiras</div>
+    </div>
+    <div class="metric">
+      <div class="number">15+</div>
+      <div class="label">Competições vencidas</div>
+    </div>
+    <div class="metric">
+      <div class="number">200+</div>
+      <div class="label">Consultores formados</div>
+    </div>
+  </div>
+</section>
+
+{% endblock %}

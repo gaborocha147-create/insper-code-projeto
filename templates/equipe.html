@@ -1,0 +1,56 @@
+{% extends "base.html" %}
+{% block title %}Equipe - ICC{% endblock %}
+
+{% block content %}
+
+<!-- TÍTULO (ALINHADO COMO NAS OUTRAS PÁGINAS) -->
+<section class="section">
+  <div class="container">
+    <h1>Nossa Equipe</h1>
+  </div>
+</section>
+
+<!-- CARROSSEL -->
+<section>
+  <div class="container">
+
+    <div class="carousel-container">
+
+      <button class="carousel-btn prev">‹</button>
+
+      <div class="carousel">
+
+        <div class="member-slide">
+          <img src="{{ url_for('static', filename='img/membros/enrico.png') }}">
+          <h3>Enrico Simões Pietro</h3>
+          <p>Presidente</p>
+        </div>
+
+        <div class="member-slide">
+          <img src="{{ url_for('static', filename='img/membros/ana.png') }}">
+          <h3>Ana Luísa Dias Farinha</h3>
+          <p>Vice-Presidente</p>
+        </div>
+
+        <div class="member-slide">
+          <img src="{{ url_for('static', filename='img/membros/leticia.png') }}">
+          <h3>Letícia da Silva Aznar</h3>
+          <p>Recursos Humanos</p>
+        </div>
+
+        <div class="member-slide">
+          <img src="{{ url_for('static', filename='img/membros/anderson.png') }}">
+          <h3>Anderson Benjamin</h3>
+          <p>Escola de Mentores</p>
+        </div>
+
+      </div>
+
+      <button class="carousel-btn next">›</button>
+
+    </div>
+
+  </div>
+</section>
+
+{% endblock %}

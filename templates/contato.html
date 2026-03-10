@@ -1,0 +1,25 @@
+{% extends "base.html" %}
+{% block title %}Contato - ICC{% endblock %}
+
+{% block content %}
+
+<section>
+  <div class="container">
+    <h1>Contato</h1>
+
+    <div class="social-icons">
+
+      <a href="https://www.instagram.com/insperconsultingclub/" target="_blank">
+        <img src="{{ url_for('static', filename='img/instagram.png') }}">
+      </a>
+
+      <a href="https://www.linkedin.com/company/insperconsultingclub/" target="_blank">
+        <img src="{{ url_for('static', filename='img/linkedin.png') }}">
+      </a>
+
+    </div>
+
+  </div>
+</section>
+
+{% endblock %}

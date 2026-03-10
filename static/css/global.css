@@ -1,0 +1,58 @@
+/* ===== BASE RESET ===== */
+
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+
+body{
+  font-family:'Poppins', sans-serif;
+  background:#ffffff;
+  color:#000000;
+  line-height:1.6;
+}
+
+.container{
+  max-width:1100px;
+  margin:0 auto;
+  padding:0 20px;
+}
+
+section{
+  padding:140px 0;
+}
+
+h1{
+  font-size:56px;
+  font-weight:700;
+  line-height:1.1;
+  margin-bottom:30px;
+}
+
+h2{
+  font-size:36px;
+  font-weight:600;
+  margin-bottom:40px;
+}
+
+h3{
+  font-size:22px;
+  font-weight:600;
+  margin-bottom:15px;
+}
+
+p{
+  font-size:18px;
+  color:#333333;
+}
+
+footer{
+  padding:80px 0;
+  border-top:1px solid #e5e5e5;
+  text-align:center;
+}
+
+html, body {
+  overflow-x: hidden;
+}
