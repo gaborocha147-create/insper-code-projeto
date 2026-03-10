@@ -1,0 +1,19 @@
+.parceiros-grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+gap:30px;
+margin-top:40px;
+}
+
+.parceiro{
+background:white;
+border:1px solid #e5e5e5;
+padding:20px;
+text-align:center;
+border-radius:6px;
+}
+
+.parceiro img{
+height:60px;
+margin-bottom:10px;
+}
