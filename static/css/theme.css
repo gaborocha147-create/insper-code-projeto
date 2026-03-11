@@ -91,11 +91,16 @@
   text-align:left;
 }
 
-.metric .number{
-  font-size:110px;
-  font-weight:700;
-  color:var(--primary);
-  line-height:1;
+.metric .number {
+  font-size: 110px;
+  font-weight: 700;
+  color: #b20000;
+  line-height: 1;
+  transition: 0.3s ease;
+}
+
+.metric:hover .number {
+  transform: scale(1.1);
 }
 
 .metric .label{
@@ -126,11 +131,12 @@
   padding: 50px;
   transition: all 0.3s ease;
   background: white;
+  border-radius: 12px;
 }
 
 .card:hover {
+  transform: translateY(-8px);
   border-color: #b20000;
-  transform: translateY(-6px);
 }
 
 .section-alt{
@@ -222,4 +228,24 @@
 .reveal.active {
   opacity: 1;
   transform: translateY(0);
+}
+
+/* ===== PARTICIPE FIX ===== */
+
+.participe-container {
+  max-width: 800px;
+}
+
+.participe-text {
+  margin-bottom: 50px;
+  font-size: 20px;
+}
+
+.participe-btn-wrapper {
+  margin-top: 20px;
+}
+
+.btn-big {
+  font-size: 24px;
+  padding: 24px 70px;
 }
