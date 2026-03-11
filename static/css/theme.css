@@ -252,3 +252,21 @@
   font-size: 24px;
   padding: 24px 70px;
 }
+
+
+/* ===== ATIVIDADES IMAGENS ESCALADAS SEM CORTE ===== */
+
+.atividade-card img {
+  width: 100%;
+  max-height: 240px;      /* limita altura */
+  height: auto;           /* mantém proporção */
+  object-fit: contain;    /* NÃO corta */
+  display: block;
+  margin-bottom: 20px;
+}
+
+/* deixa os cards mais consistentes */
+.atividade-card {
+  display: flex;
+  flex-direction: column;
+}
